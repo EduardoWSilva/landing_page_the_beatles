@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="scripts.js" defer></script>
+        <title>The Beatles</title>
+    </head>
+
+    <body>
+        <!-- Container do menu -->
+        <header class="container">
+            <a class="logo" href="#">
+                <img src="img/the-beatles-logo.jpg" alt="logo da banda">
+            </a>
+            <audio controls autoplay preload="metadata" loop>
+                <source src="audio/yesterday_YOm0Dhwu.mp3" type="audio/mpeg">
+            </audio>
+            <nav class="navbar-menu">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#albuns">álbuns</a></li>
+                    <li><a href="#history">história</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="btn-search">
+                <i class="fas fa-search"></i>
+                <input type="text" name="name" id="name" placeholder="Buscar...">
+            </div>
+        </header>
+
+        <!-- Banner dos integrantes da banda -->
+        <div id="band" class="container-img">
+            <figure>
+                <img src="img/Beatles-banner.jpg" alt="banner dos integrantes da banda">
+                <figcaption>integrantes da banda </figcaption>
+            </figure>
+        </div>
+
+        <!-- Container dos álbuns -->
+        <div id="albuns" class="container-albuns">
+            <h2>Melhores álbuns da banda</h2>
+            <div class="div-albuns">
+                <div class="gallery">
+                    <figure>
+                        <img src="img/capa-do-album-revolver.jpg" alt="álbum revolver">
+                        <figcaption>Revolver (1966)</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <img src="img/Capa-help.jpg" alt="álbum help">
+                        <figcaption>Help! (1965)</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <img src="img/capa-abbey-road.jpg" alt="álbum Abbey-road">
+                        <figcaption>Abbey Road (1969) </figcaption>
+                    </figure>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <img src="img/capa-sgt-pepper.jpg" alt="álbum sgt-pepper">
+                        <figcaption>Sgt pepper (1992)</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <img src="img/capa-Please_Please_Me.jpg" alt="álbum please please me">
+                        <figcaption>Please Please Me (1962)</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <img src="img/capa-let_it_be.jpg" alt="álbum let it be">
+                        <figcaption>Let it Be (1970)</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <!-- História da banda -->
+        <main class="main-pag">
+            <h2>História dos Beatles</h2>
+            <div id="history" class="container-history">
+                <div class="box-history">
+                    <h3>O Começo - resumo histórico</h3>
+                    <p>The Beatles foi uma banda de rock, formada na cidade de Liverpool (Inglaterra), em 1956. Faziam parte
+                        deste grupo os seguintes músicos: John Lennon (vocalista, guitarrista e compositor), George Harrison
+                        (guitarrista e vocalista), Paul Mc Cartney (baixista, compositor e vocal) e Ringo Star (baterista).
+                        O nome inicial da banda era Silver Beetles, fazendo uma referência a besouros. Porém, por sugestão
+                        de
+                        John Lennon, a banda passou a se chamar The Beatles, pois a palavra inglesa "beat" significa ritmo
+                        ou
+                        batida. As músicas dos Beatles e de John Lennon fazem grande sucesso até os dias de hoje, sendo
+                        ouvidas por
+                        jovens e adultos.
+                    </p>
+                    <br>
+                    <h3>O Sucesso da banda</h3>
+                    <p>Fizeram sucesso mundial com suas músicas, principalmente na década de 1960. O sucesso deve-se ao
+                        estilo revolucionário que implantaram no cenário musical. Eram canções com letras marcantes e
+                        efeitos de
+                        guitarra fortes. Fizeram sucesso mundial com suas músicas, principalmente na década de 1960.
+                    </p>
+                    <div class="box-img-hist">
+                        <figure>
+                            <img src="img/the-beatles2.jpg" alt="foto início da carreira">
+                            <figcaption>The Beatles no início da carreira</figcaption>
+                        </figure>
+                    </div>
+                    <p>O sucesso deve-se ao estilo revolucionário que implantaram no cenário musical. Eram canções com
+                        letras marcantes e efeitos de
+                        guitarra fortes. As letras atingiram em cheio os jovens, pois eram contestadoras e revolucionárias
+                        para a época. O estilo visual também revolucionou o cenário musical. Os jovens de Liverpool usavam
+                        cabelos compridos, roupas de cores fortes, anéis e outros adereços.
+                        O sucesso foi tão grande que no ano de 1965 foram recebidos pela rainha Elizabeth II, da Inglaterra,
+                        e receberam medalhas da Ordem do Império Britânico. Da música foram para o cinema e, em 1967,
+                        lançaram
+                        o filme “Help!”. A beatlemania espalhou-se pelo mundo inteiro, fazendo sucesso inclusive no Brasil.
+                        Produziram também outros filmes: A Hard day’s night e Magical Mistery Tour.
+                    </p>
+                    <br>
+                    <h3>O Início da crise</h3>
+                    <p>A banda começou a entrar em crise, em função de divergências empresariais, no final dos anos 60,
+                        terminando em 1970. John Lennon seguiu carreira solo, com participação de sua esposa Yoko Ono.
+                        Porém, em dezembro de 1980, foi assassinado por um fã, ao entrar em seu prédio na cidade de Nova
+                        Iorque. Morria um dos maiores músicos de todos os tempos.
+                    </p>
+                    <br>
+                    <div class="box-musicas">
+                        <h3>Principais sucessos dos Beatles</h3>
+                        <blockquote>"Love me do" (1962);<br>
+                            "She loves you" e "I want to hold your hand" (1963);<br>
+                            "Can't buy me love" e "A hard day's night" (1964);<br>
+                            "Help" e "Yesterday" (1965);<br>
+                            "In my life" (1965);<br>
+                            " I'm Looking Through You"" (1965);<br>
+                            "Yellow Submarine" (1966);<br>
+                            "Hey Jude" (1968) e "Let it be" (1970).
+                        </blockquote>
+                        <br>
+                        <div>
+                            <figure>
+                                <img src="img/the_beatles_nova_iorque.jpg" alt="foto da banda em Nova Iorque">
+                                <figcaption>The Beatles em Nova Iorque (foto de 1964).</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- container curiosidades da banda -->
+        <div class="container-curiosities">
+            <h2>10 curiosidades sobre os Beatles</h2>
+            <div class="box-curiosities">
+                <div class="banner-curios">
+                    <figure>
+                        <img src="img/The-Beatles-Ringo-Starr-Paul-McCartney-George.jpg" alt="foto da banda">
+                    </figure>
+                </div>
+                <div class="list-curiosites">
+                    <p>Abaixo, separamos <span class="bold">10 curiosidades sobre os Beatles:</span></p>
+                    <ol>
+                        <li>Paul McCartney e John Lennon se conheceram em uma quermesse no ano de 1957. Na época, Lennon
+                            tinha uma banda chamada The Quarrymen, que se apresentou naquele dia no local.
+                        </li>
+                        <li>O grupo teve outros nomes, antes de serem conhecidos como The Beatles (e antes de Ringo integrar
+                            a banda): <span class="bold">Johnny & The Mundongs</span> e <span class="bold">The Silver
+                                Beatles</span>.
+                        </li>
+                        <li>Em 1961, os Beatles fizeram sua 1ª apresentação no Cavern Club, em Liverpool. No período de dois
+                            anos, a banda tocou 294 vezes no local.
+
+                        </li>
+                        <li>O primeiro single da banda, <span class="bold">Love Me Do</span>, foi lançado em 5 de outubro de
+                            1962. Em 31 de dezembro
+                            de 2012, a canção passou a ser de domínio público na Europa.
+
+                        </li>
+                        <li><span class="bold">Abbey Road</span>, de 1969, foi o primeiro álbum da banda a ser lançado
+                            somente em estéreo, e não em
+                            mono, como era de costume até então.
+
+                        </li>
+                        <li>As maiores influências vocais dos Beatles foram as bandas <span class="bold">The Beach
+                                Boys</span> e <span class="bold">The Everly Brothers</span>.
+
+                        </li>
+                        <li>Após a separação do quarteto, os músicos seguiram em carreira solo. George Harrison foi o
+                            primeiro ex-Beatle a chegar ao topo das paradas de sucesso no Reino Unido com a música <span
+                                class="bold">My Sweet
+                                Lord</span> .
+                        </li>
+                        <li>Já em carreira solo, Paul McCartney tocou no Brasil pela primeira vez em abril de 1990, no
+                            Maracanã, no Rio de Janeiro. Não foi a primeira vez que um ex-Beatle visitou o país: em 1979,
+                            Harrison assistiu ao Grande Prêmio do Brasil de Fórmula 1, no autódromo de Interlagos, em São
+                            Paulo, a convite do piloto Émerson Fittipaldi.
+                        </li>
+                        <li>A faixa <span class="bold">Across the Universe</span>, do álbum Let It Be, tem a participação de
+                            uma brasileira. Em 1968,
+                            <span class="bold">Lizzie Bravo</span> (com apenas 17 anos na época) estava em Londres, perto da
+                            gravadora da banda,
+                            quando Paul McCartney a chamou para gravar agudos na música.
+                        </li>
+                        <li> No primeiro semestre de 2022, a discografia dos Beatles será <span class="bold">guardada em um
+                                cofre no Polo
+                                Norte</span>,
+                            capaz de suportar um apocalipse nuclear, para que as cópias possam ficar preservadas por mais de
+                            mil anos. Além disso, para garantir que as músicas possam ser escutadas no futuro, serão
+                            guardadas tanto cópias físicas quanto digitais.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contato -->
+        <div id="contato" class="contact-container">
+            <div class="box-contact">
+                <h2>Gostaria de receber mais notícias da banda Beatles</h2>
+                <p>Envie agora um e-mail para gente e fique por dentro de tudo.</p>
+                <input type="text" name="name" id="name" placeholder="Seu nome">
+                <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                <input type="submit" name="Enviar">
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © E.W developer 2023</p>
+        </footer>
+    </body>
+</html>
